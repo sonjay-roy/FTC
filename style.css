@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nab-bg{
     background-color: rgba(141, 228, 243, 0.65);
     padding: 10px;
@@ -84,4 +85,92 @@
 }
 .buttn a:hover{
     color: rgba(30, 172, 219, 0.555);
+=======
+.nab-bg{
+    background-color: rgba(141, 228, 243, 0.65);
+    padding: 10px;
+    box-shadow: 0px 2px 12px silver;
+}
+.marginl{
+    margin-left: 300px;
+}
+.slider-radius{
+    border-radius: 10px;
+    border-left:3px solid skyblue;
+    border-right:3px solid skyblue;
+    box-shadow: 0px 5px 20px silver;
+}
+.main-headlin{
+    height: 120px;
+    background-color: aliceblue;
+    color: cadetblue;
+    text-align: center;
+    display: relative;
+    padding: 15px;
+    box-shadow: 0px 2px 12px silver;
+    
+}
+.hidden-details{
+    width: 75%;
+    box-shadow: 0px 1px 10px slategray;
+    background-color: rgba(135, 207, 235, 0.719);
+    position: absolute;
+    margin-top: -400px;
+    border-radius: 10px;
+    display:none;
+}
+.main-headlin:hover .hidden-details{
+    color:black;
+    display: block;
+}
+.member{
+    background-color: rgba(106, 229, 245, 0.712);
+    height: 100px;
+    justify-content: center;
+    color:black;
+    box-shadow: 0px 2px 12px silver;
+}
+.card-styl{
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+    border: 11px solid slategray;
+    border-radius: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    background-color:lightblue;
+}
+.card-styl:hover{
+    border: 10px solid rgb(135, 155, 175);
+    background-color:rgb(160, 220, 240);
+}
+.card-footer a img{
+   margin: 15px;
+   background-color: lightblue;
+   border-radius: 10px;
+   box-shadow: 0px 8px 12px silver;
+}
+.card-footer a img:hover{
+    background-image: linear-gradient(50deg, lightblue, silver);
+}
+.box-shadow{
+    border-radius: 10px;
+    box-shadow: 0px 5px 12px silver;
+}
+.buttn{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    background-color: rgba(135, 207, 235, 0.781);
+    box-shadow: 0px 1px 5px silver;
+}
+.buttn a{
+    text-decoration: none;
+    color: white;
+}
+.buttn a:hover{
+    color: rgba(30, 172, 219, 0.555);
+>>>>>>> 3870d3e63d52c9e6b407b658a187cf537e9712d9
 }
